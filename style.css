@@ -8,7 +8,7 @@ body {
 .div1 {
     margin: 1.6em 72.5em 5.8em 4em;
 }
-.div img { 
+.div1 img { 
     height: 60px;
 }
 
@@ -102,9 +102,9 @@ a i:hover {
     }
     #main {
         display: flex;
-        width: 100%;
+        /* width: 100%;  */
         flex-direction: column;
-        width: 98vw;
+        /* width: 98vw; */
     }
     #main img {
         width: 84%;
@@ -115,7 +115,6 @@ a i:hover {
         margin-top: 3em;
         margin-bottom: 0.8em;
         font-size: 1.2em;
-        font-weight: 400;
         text-align: center;
     }
     #main .text p{
