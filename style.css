@@ -9,7 +9,6 @@ body {
     margin: 1.6em 72.5em 5.8em 4em;
 }
 #logo { 
-    /* width: 50%; */
     height: 60px;
 }
 
@@ -19,14 +18,17 @@ body {
 }
 #main img {
     margin-left: 4em;
+    height: 50%;
 }
 h1{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 39px;
+    margin-bottom: 0;
 }
 .text {
     margin-left: 3.5em;
+    margin-right: 0.1em;
     color: white;
     display: flex;
     flex-direction: column;
@@ -38,10 +40,11 @@ h1{
 }
 button {
     font-family: "Poppins", sans-serif;
+    font-weight: 400;
     width: 35%;
     margin-top: 0.8em;
     font-size: 0.9em;
-    height: 3.6em;
+    height: 3.2em;
     background-color: white;
     color: hsl(257, 40%, 49%);
     border-radius: 25px;
@@ -55,8 +58,8 @@ button:hover {
 .icons {
     display: flex;
     flex-direction: row;
-    margin-top: 11.5em;
-    margin-left: 20em;
+    margin-top: 13.9em;
+    margin-left: 22.5em;
 }
 .icons a {
     width: 2em; 
@@ -73,12 +76,12 @@ button:hover {
 .icons a:hover {
     border-color: hsl(300, 69%, 71%);
 }
-a i:hover {
+a i:hover { 
     color: hsl(300, 69%, 71%);
 }
 .attribution { 
     font-size: 10px; 
-    text-align: center; 
+    text-align: center;
 }
 @media only screen and (max-width: 375px) {
     body {
